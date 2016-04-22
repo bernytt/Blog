@@ -4,6 +4,8 @@ title: 运维通用python脚本框架
 category: Python
 comments: true
 ---
+#运维通用python脚本框架
+
 
 ```java
 #!/usr/bin/env python
