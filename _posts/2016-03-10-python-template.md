@@ -7,7 +7,7 @@ comments: true
 
 #### 
 
-```java
+```shell
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
  
