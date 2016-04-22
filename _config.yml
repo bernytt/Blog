@@ -34,7 +34,7 @@ excerpt_separator: "\n\n"
 detach:       false
 port:         4000
 host:         127.0.0.1
-baseurl:      "" # does not include hostname
+baseurl:      "/blog" # does not include hostname
 
 # Outputting
 permalink:     date
@@ -43,10 +43,10 @@ timezone:      null
 
 
 #Site config
-title: Jekyll Theme
-description: Just another Jekyll theme design and code by zhanxin.info.
-keywords: Jekyll Theme
-url: /StrayBirds
+title: Berny
+description: 行者常至，为者常成
+keywords: Berny
+url: /blog
 feed: /atom.xml
 favicon: http://jekyllrb.com/favicon.png
 
@@ -65,13 +65,18 @@ nav:
 
 #Author config
 author:
-    name: minixalpha
-    email: xkzbeta@outlook.comment
-    imageLink: https://avatars.githubusercontent.com/minixalpha
-    simpleIntro: 我是 minixalpha
+    name: Berny
+    email: berny_chen@yahoo.com
+    imageLink: https://avatars2.githubusercontent.com/u/13655293?v=3&s=460
+    simpleIntro: <h1>对于这块千百年来始终沉默的天空,我们不回答,只生活<h1>
     detailIntro:
-      <p>Jekyll 是一个简洁的、特别针对博客平台的 静态网站 生成器。它使用一个模板目录作为网站布局的基础框架，并在其上运行 Textile 、 Markdown 或 Liquid 标记语言的转换器，最终生成一个完整的静态Web站点，可以被放置在Apache或者你喜欢的其他任何Web服务器上。它同时也是 GitHub Pages 、一个由 GitHub 提供的用于托管项目主页或博客的服务，在后台所运行的引擎。</p>
-      <p>很早之前，使用过 wordpress 来写博客。但是还要处理很多的底层问题。而使用 Jekyll 来写博客，可以很简单，写 Markdown 就好。然而，Jekyll 还很年轻，没有很多主题的支持。这里的主题，就是为 Jekyll 而写的。希望你能喜欢。</p>
+      - 1、能吃得下两样东西：吃苦与吃亏。<br>
+      - 2、要练两项本领：做事让人感动和说话让人喜欢。<br>
+      - 3、要结交两种人：良师与益友。<br>
+      - 4、要做两件事：感恩与结缘。<br>
+      - 5、要迈两道坎：情与钱。<br>
+      - 6、要经营两种状态：谋生与乐生。<br>
+      - 7、两件事不能等：行善和尽孝。<br>
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
 follow:
@@ -83,24 +88,22 @@ follow:
     url: http://renren.com
   - class: icon-github-alt
     url: http://github.com
-  - class: icon-twitter
-    url: http://twitter.com
   - class: icon-google-plus
     url: http://google.com
 
 #Links
 customLinks:
   - item:
-    - text: 掌心
-      url: http://www.zhanxin.info
-    - text: Jekyll
-      url: http://jekyllrb.com
-    - text: Jekyll Theme
-      url: http://www.zhanxin.info/themes.html
+    - text: 百度
+      url: http://www.baidu.com
+    - text: Brainqi
+      url: http://blog.brainqi.net
+    - text: 知乎
+      url: http://www.zhihu.com
     message: Friends
   - item:
-    - text: Font Awesome
-      url: http://fortawesome.github.io/Font-Awesome/
+    - text: Github
+      url: https://github.com
     - text: Google Font
       url: http://www.google.com/fonts/
     - text: jQuery
@@ -115,15 +118,15 @@ disqus:
 
 #################################### global configure #######################################
 
-username: minixalpha
-baseurl: /StrayBirds
+username: berny
+baseurl: /blog
 markdown: redcarpet
 safe: false
 highlighter: pygments
-title: 飞鸟集
-description: 人生到处知何似，应似飞鸿踏雪泥
+title: 浮生若梦
+description: 行者常至，为者常成
 theme: kunka
-disqusname: minixalpha
+disqusname: berny
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
 # those themes are all come from GitHub Pages Themes
